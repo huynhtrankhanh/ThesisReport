@@ -7,6 +7,10 @@
 #### Why model checkers and SMT solvers are not up to the task
 #### Why using a proof assistant is the best approach
 ## Overview
+The architecture of the formal verification system is as follows:
+- **Input code:** Written in a new language, which is more restricted than Solidity. It is much closer to lower level concepts of the Ethereum blockchain. Notable features are:
+  + Only loops where the iteration count is known in advance are allowed.
+  + 
 ### Foundational definitions
 ### Compilation process
 ### Syntax of new language
