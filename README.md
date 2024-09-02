@@ -15,6 +15,9 @@ The architecture of the formal verification system is as follows:
   + Contracts take binary data as input and returns binary data as output
     * In Solidity, even though fundamentally contracts process binary data and return binary data, it has a layer of abstraction over the binary data called the Application Binary Interface
 - **Compiler:** Takes code written in the new language and compiles into both Solidity and Coq. The Solidity code can be used to deploy to Ethereum Virtual Machine compatible blockchains, while the Coq code can be used to prove correctness properties.
+- **Foundational definitions:** The Coq code cannot stand by itself. It must have some foundational definitions to lean on. The definitions include:
+  + Monads
+  + Algebraic effects
 ### Foundational definitions
 ### Compilation process
 ### Syntax of new language
