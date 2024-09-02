@@ -15,3 +15,7 @@
 ### Simple contract
 ### Merge sort
 ### Heap data structure
+### Prime factorization
+#### With reentrancy bug
+#### Without reentrancy bug
+### Binary search
